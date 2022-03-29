@@ -61,12 +61,12 @@
   margin: 4px 0;
   
 }
-.six {
+#six {
   background: #F7E2C7;
   padding: 50px 20px;
   text-align: center;
 }
-.six h1 {
+#six h1 {
   font-weight: normal;
   font-family: 'Merriweather', serif;
   position: relative;
@@ -77,24 +77,24 @@
   font-size: 40px;
   padding: .4em 1em .55em;
 }
-.six h1:before,
-.six h1:after {
+#six h1:before,
+#six h1:after {
   content: ""; 
   position: absolute;
   width: 60%;
   height: .1em;
   background: #294200; 
 }
-.six h1:before {
+#six h1:before {
   left: 0;
   top: 0;
 }
-.six h1:after {
+#six h1:after {
   right: 0;
   bottom: 0;
 }
-.six h1 span:before,
-.six h1 span:after {
+#six h1 span:before,
+#six h1 span:after {
   content: ""; 
   position: absolute;
   width: .65em;
@@ -103,11 +103,11 @@
   border-radius: 50%;
   box-sizing: border-box;
 }
-.six h1 span:before {
+#six h1 span:before {
   top: -.55em;
   left: -.325em;
 }
-.six h1 span:after {
+#six h1 span:after {
   bottom: -.55em;
   right: -.325em;
 }
