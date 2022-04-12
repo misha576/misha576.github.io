@@ -24,22 +24,13 @@
 			alert("Доступ запрещен! Неверный пароль!!!");
 			return false;
 		}
-		function checkName() {
-		  let name = document.getElementById("name");
-		  let name = name.value;
-		  if(name === "jem"){
-		    return true;
-		  }
-		  
-		}
 	</script>
 </head>
 
 <body>
 	<p style="font-size: 30pt;">Войти</p>
-	<p>Имя: <input id="name" type="text"/></p>
 	<p>Пароль: <input id="passwordBox" type="password"/></p>
-	<a href="/index.html" onclick="return checkPassword(); checkName();">
+	<a href="/index.html" onclick="return checkPassword();">
 		войти
 	</a>
 </body>
