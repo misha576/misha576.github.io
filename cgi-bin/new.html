@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>
+		Пароль
+	</title>
+	<style>
+		body {
+			background-color: aquamarine;
+			padding: 30px;
+		}
+	</style>
+
+	<script>
+		function checkPassword() {
+			let password = document.getElementById("passwordBox");
+			let passwordEntered = password.value;
+			if(passwordEntered === "jem454") {
+				return true;
+			}
+			alert("Доступ запрещен! Неверный пароль!!!");
+			return false;
+		}
+	</script>
+</head>
+
+<body>
+	<p style="font-size: 30pt;">НАЙДЕН АЛМАЗ МОНАХ </p>
+	<p>Для входа на сайт введите, пожалуйста, пароль.</p>
+	<p>Пароль: <input id="passwordBox" type="password"/></p>
+	<a href="result.html" onclick="return checkPassword();">
+		войти
+	</a>
+</body>
+
+</html>
