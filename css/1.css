@@ -15,7 +15,7 @@
 	-webkit-background-clip: text;
 	position: relative;text-align: center;
 	content="width=divice-width,initial-scale=1.0"
-	font-size: 8vw;}
+	font-size: 15vw;}
 #d p{
 	margin-bottom:15px;
 }
@@ -46,8 +46,8 @@ input {
 #d input:not([type="checkbox"]){
 	width: 92%;
 	margin-top: 4px;
-	padding: 10px 5px 10px 32px;	
-	border: 1px solid rgb(178, 178, 178);
+	padding: 15px 3px 3px 20px;	
+	border: 2px solid rgb(178, 178, 178);
 	-webkit-appearance: textfield;
 	-webkit-box-sizing: content-box;
 	  -moz-box-sizing : content-box;
