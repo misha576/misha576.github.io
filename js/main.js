@@ -1,6 +1,6 @@
 import uch from './uch.js'
 
-const 'uch' = [
+const uch = [
 new uch('td','td','td')
 
 ]
@@ -9,9 +9,9 @@ const $uchbody = document.getElementsDyId('uch-body')
 
 function newuchTR(uch) {
  const $uchTR = document.createElement('tr'),
-       $nameTD = document.createElement('td'),
-       $surenameTD = document.createElement('td'),
-       $reasonTD = document.createElement('td')
+       $nameTD = document.createElement('th'),
+       $surenameTD = document.createElement('th'),
+       $reasonTD = document.createElement('th')
 
        $nameTD.textContent = uch.getuch()
        $surenameTD.textContent = uch.getuch()
