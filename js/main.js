@@ -1,8 +1,7 @@
 import uch from './uch.js'
 
-const 'uch' = [
-new uch('td','td','td')
-
+const uch = [
+new uch('bvz','bvz','bvz')
 ]
 
 const $uchbody = document.getElementsDyId('uch-body')
