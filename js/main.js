@@ -1,6 +1,6 @@
 import uch from './uch.js'
 
-const uch = [
+const 'uch' = [
 new uch('td','td','td')
 
 ]
