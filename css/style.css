@@ -63,6 +63,18 @@
   position: relative;text-align: center;
   content="width=divice-width,initial-scale=1.0"
   font-size: 15vw;}
+#d h2{
+    background: -webkit-repeating-linear-gradient(-45deg, 
+  rgb(18, 83, 93) , 
+  rgb(18, 83, 93) 20px, 
+  rgb(64, 111, 118) 20px, 
+  rgb(64, 111, 118) 40px, 
+  rgb(18, 83, 93) 40px);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  position: relative;text-align: center;
+  content="width=divice-width,initial-scale=1.0"
+  font-size: 15vw;}
 
 #sidebar .toggle-btn:hover {background: #556270}
 #sidebar .toggle-btn:hover span {background: #fafafa}
