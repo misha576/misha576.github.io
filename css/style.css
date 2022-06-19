@@ -60,8 +60,7 @@
   rgb(18, 83, 93) 40px);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  position: relative;
-  font-size: 5vw;}
+  position: relative;}
 
 #sidebar .toggle-btn:hover {background: #556270}
 #sidebar .toggle-btn:hover span {background: #fafafa}
